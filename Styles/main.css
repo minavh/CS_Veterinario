@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bigbox {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+/* PARA EL HEADER */
+
+.imgpin {
+    width: 150px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+    color: black;
+}
+
+.header {
+    display: flex; /* para alineas los hijos en línea */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-buscador {
+    border: 0;
+    border-radius: 30px;
+    color: gray;
+    width: 50%;
+    height: 40px;
+    cursor: text;
+}
+
+.imgheader {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.imgm {
+    width: 30px;
+    height: auto;
+}
+
+/* TUS PACIENTES */
+
+.tuspacientes {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-image: url(cat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255,255,255,0.5);
+    margin-bottom: 30px;
+}
+
+.texto {
+    font-size: 50px;
+}
+
+/* CONTENIDO */
+
+.catalogo {
+    display: flex;
+    background-color: rgb(245, 246, 244);
+}
+
+/* FILTRO */
+
+.filtro {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.item-lista {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(13, 115, 217);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+}
+
+/* IMÁGENES */
+
+.imagenes-catalogo {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pacientes {
+    width: 20%;
+    margin: 2%;
+    text-align: center;
+    /* box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22); */
+}
+
+.pacientes img {
+    width: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+}
+
+.pacientes a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-image: url(cat.jpg);
+    background-size: cover;
+   /*  background-position: center; */
+    background-color: rgba(255,255,255,0.5);
+    margin-bottom: 30px;
+    
+}
+
+/* PARA ESTÉTICA */
+
+
+.calendario img {
+    
+    width: 100%;
+    height: auto;
+
+}
+
+
+/* TU CALENDARIO */
+
+.tucalendario {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-image: url(esteticafondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255,255,255,0.5);
+    margin-bottom: 30px;
+}
+
+.textoCalendario {
+    font-size: 50px;
+    color: white;
+}
+
